@@ -1,5 +1,4 @@
 x=document.getElementById("myAudio");
-canvas=document.getElementById("myCanvas");
 document.getElementById("my-btn").onclick=function(){
 var SpeechRecognition= window.webkitSpeechRecognition;
 var recognition= new SpeechRecognition;
@@ -33,7 +32,7 @@ function preload(){
 }
 function setup(){
     canvas = createCanvas(300,300);
-    canvas.position(750,500);
+    canvas.position(600,500);
     video = createCapture(VIDEO);
     video.size(300,300);
     video.hide();
